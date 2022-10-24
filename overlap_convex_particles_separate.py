@@ -1112,7 +1112,7 @@ def particles_separate(img_path):
 if __name__=='__main__':
 
     #----------------------------------岩石颗粒分割------------------------------
-    path='/home/yuzhu/Documents/papers/new_papers/new_papers/Overlapping_Object_Separating/code/Demonstration_Pictures/demo1.png'    
+    path='~/demo1.png' #iuput the image path   
     img=open_image(path) 
     print('image shape is, ', img.shape) 
     img=img>100 #*******************************************************************
